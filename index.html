@@ -25,16 +25,18 @@
       }
       .sticky-image-wrapper {
         position: fixed;
-        bottom: 0.25vh;
+        bottom: -0.25vh;
         width: 100%;
+        padding-right: 10px;
       }
 
       .sticky-image-wrapper img {
         display: table;
+        box-sizing: content-box;
         position: relative;
         margin: auto;
-        width: 100vw;
-        top: 33vh;
+        width: 100%;
+        top: 333px;
       }
       p {
         color: white;
@@ -183,7 +185,7 @@
     <div class="wrapper">
       <ul>
         <li><a href="https://twitter.com/3Fig69">Twitter: @3Fig69</a></li>
-        <li><a href="https://github.com/Fig369/">github: @Fig369</a></li>
+        <li><a href="https://github.com/Fig369">github: @Fig369</a></li>
       </ul>
     </div>
 
@@ -193,7 +195,7 @@
       <button>Submit</button>
     </div>
     <div class="sticky-image-wrapper">
-      <img src="mountain2.png" style="right: 1vw" />
+      <img src="mountain2.png" />
     </div>
   </body>
 </html>
