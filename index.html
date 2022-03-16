@@ -25,11 +25,13 @@
       }
       .sticky-image-wrapper {
         position: fixed;
-        bottom: -0.25vh;
-        width: 100%;
-        padding-right: 10px;
+    bottom: 19.75vh;
+    width: 100%;
+    padding-right: 10px;
       }
-
+      .sticky-image-wrapper * {
+        display: inline;
+      }
       .sticky-image-wrapper img {
         display: table;
         box-sizing: content-box;
@@ -37,6 +39,9 @@
         margin: auto;
         width: 100%;
         top: 333px;
+        background-image: url('mountain.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
       }
       p {
         color: white;
@@ -194,7 +199,7 @@
       <input placeholder="enter an email address..." />
       <button>Submit</button>
     </div>
-    <div class="sticky-image-wrapper">
+    <div class="sticky-image-wrapper" style=>
       <img src="mountain.png" />
     </div>
   </body>
