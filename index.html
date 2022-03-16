@@ -18,6 +18,62 @@
         height: 80px;
         margin-left: 40px;
       }
+      @keyframes particleAnimation
+      {
+          from {
+              left: -100px;
+          }
+          to {
+              left: calc( 100% + 100px );
+          }
+          0% {
+              animation-direction: 0% 50%;
+          }
+          50% {
+            animation-direction: 100% 50%;
+          }
+          100% {
+            animation-direction: 0% 50%;
+          }
+      }
+
+      body{
+        background:black;
+      }
+      .p{
+        position:fixed;
+        left:0px;
+        top:50px;
+        width:1px;
+        height:1px;
+        background-color:white;
+        position:fixed;
+        animation-name:particleAnimation;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+      }
+      .p::before{
+        position:absolute;
+        display:block;
+        content:"";
+        width:100px;
+        right:1px;
+        top:0px;
+        height:1px;
+        background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100%); 
+      }
+      .p-1{
+        animation-duration:10s;
+      }
+      .p-2{
+        animation-duration:5s;
+        top:60%;
+      }
+      .p-3{
+        animation-duration:20s;
+        top:90%;
+      }
       body {
         background-image: url("https://images.unsplash.com/photo-1515166162498-25562df50839?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
         background-repeat: no-repeat;
@@ -25,9 +81,9 @@
       }
       .sticky-image-wrapper {
         position: fixed;
-    bottom: 19.75vh;
-    width: 100%;
-    padding-right: 33px;
+        bottom: 19.75vh;
+        width: 100%;
+        padding-right: 33px;
       }
       .sticky-image-wrapper * {
         display: inline;
@@ -36,12 +92,12 @@
         display: table;
         box-sizing: content-box;
         position: relative;
-        margin: auto;
+        margin-top: 5vh;
         width: 100%;
-        top: 333px;
+        top: 422px;
         background-image: url('mountainp.png');
-background-repeat: no-repeat;
-background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
       }
       p {
         color: white;
@@ -72,9 +128,8 @@ background-size: 100% 100%;
         font-family: "Dancing Script", cursive;
         font-size: 9.1vw;
         margin-bottom: 2vw;
-        padding-top: 2vw;
+        padding-top: 4vw;
         padding-bottom: 26vh;
-        text-shadow: #131212 4px;
       }
       .social {
         text-align: center;
@@ -170,16 +225,15 @@ background-size: 100% 100%;
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">NFT</a></li>
-          <li><a href="#">Artist</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/Fig369.Github.io/Aboutme.html">About</a></li>
         </ul>
       </nav>
     </header>
     <h1>Welcome to my Landing page</h1>
     <br />
-
+    <div class="p p-1"></div>
+    <div class="p p-2"></div>
+    <div class="p p-3"></div>
     <p class="intro">
       Biology runs on genes and genes are the units of meaning of heredity. A
       word has been invented, meme. A meme is the smallest unit of meaning of an
