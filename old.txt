@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" cont ent="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <style>
+      header img {
+        height: 80px;
+        margin-left: 40px;
+      }
+      @keyframes particleAnimation
+      {
+          from {
+              left: -100px;
+          }
+          to {
+              left: calc( 100% + 100px );
+          }
+          0% {
+              animation-direction: 0% 50%;
+          }
+          50% {
+            animation-direction: 100% 50%;
+          }
+          100% {
+            animation-direction: 0% 50%;
+          }
+      }
+
+      body{
+        background:black;
+      }
+      .p{
+        position:fixed;
+        left:0px;
+        top:50px;
+        width:1px;
+        height:1px;
+        background-color:white;
+        position:fixed;
+        animation-name:particleAnimation;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+      }
+      .p::before{
+        position:absolute;
+        display:block;
+        content:"";
+        width:100px;
+        right:1px;
+        top:0px;
+        height:1px;
+        background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,255,255,0.4) 100%); 
+      }
+      .p-1{
+        animation-duration:10s;
+      }
+      .p-2{
+        animation-duration:5s;
+        top:60%;
+      }
+      .p-3{
+        animation-duration:20s;
+        top:90%;
+      }
+      body {
+        background-image: url("https://images.unsplash.com/photo-1515166162498-25562df50839?ixlib=rb-1.
+2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .sticky-image-wrapper {
+        position: fixed;
+        bottom: 19.75vh;
+        width: 100%;
+        padding-right: 33px;
+      }
+      .sticky-image-wrapper * {
+        display: inline;
+      }
+      .sticky-image-wrapper img {
+        display: table;
+        box-sizing: content-box;
+        position: relative;
+        margin-top: 5vh;
+        width: 100%;
+        top: 422px;
+        background-image: url('/img/mountainp.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      p {
+        color: white;
+      }
+      header {
+        background-color: rgba(24, 16, 16, 0.692);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        display: flex;
+        align-items: center;
+      }
+      header * {
+        display: inline;
+      }
+      header li {
+        margin: 20px;
+      }
+      header li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+      h1 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: "Dancing Script", cursive;
+        font-size: 13vh;
+        margin-bottom: 133px;
+        padding-bottom: 133px;
+        padding-top: 133px;
+      }
+      .social {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: "Dancing Script", cursive;
+        font-size: 9.1vw;
+        margin-bottom: 0.5vh;
+        padding-top: 0.5vh;
+        padding-bottom: 12vh;
+        text-shadow: #131212 4px;
+      }
+      p.intro:first-letter {
+        font-size: 133%;
+        text-align: center;
+      }
+      p.intro:first-line {
+        font-weight: bold;
+      }
+      p.intro {
+        text-align: center;
+        font-size: 2vw;
+        margin-top: 6vh;
+      }
+      p.outro {
+        text-align: center;
+        font-size: 2vw;
+      }
+      ul.side-nav {
+        border: 1px solid white;
+      }
+      a:link {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-align: center;
+      }
+      a:visited {
+        color: rgb(92, 134, 224);
+      }
+      a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+      }
+      a:active {
+        color: rgb(255, 238, 0);
+      }
+      .wrapper {
+        text-align: center;
+        padding-bottom: 18vw;
+      }
+      .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        zoom: 1;
+        *display: inline;
+      }
+      .wrapper li {
+        float: left;
+        padding: 2px 5px;
+        border: 1px solid black;
+      }
+      ul {
+        list-style: none;
+      }
+      input,
+      button {
+        border: 1px solid #01fa01;
+        color: #0d40a0;
+        padding: 6px 12px 6px 12px;
+      }
+      input {
+        color: #131212;
+      }
+      input:focus {
+        color: #665544;
+      }
+      button:hover {
+        background-color: #062af700;
+      }
+      button:active {
+        background-color: chocolate;
+      }
+      .first {
+        font-size: 120%;
+        font-weight: bold;
+      }
+      article p:first-child {
+        font-size: 120%;
+        font-weight: bold;
+      }
+    </style>
+    <header>
+      <img src="https://anchor.thejpegdao.com/JPEG.png"/>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="/Aboutme.html">About</a></li>
+          <li><a href="/Form.html">Form-Demo</a></li>
+          <li><a href="/todo.html">To-do-Demo</a></li>
+          <li><a href="/myTopic.html">Topic-NFT-Demo</a></li>
+          <li><a href="https://fig-flashcards.herokuapp.com">First Heroku App</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Welcome to my Landing page</h1>
+    <br />
+    <div class="p p-1"></div>
+    <div class="p p-2"></div>
+    <div class="p p-3"></div>
+    <br>
+    <p class="intro">
+      Biology runs on genes and genes are the units of meaning of heredity. A
+      word has been invented, meme. A meme is the smallest unit of meaning of an
+      idea. Ideas are made of memes. - Terence McKenna (1990)
+    </p>
+
+    <div class="social">My Social pages:</div>
+    <div class="wrapper">
+      <ul>
+        <li><a href="https://twitter.com/3Fig69">Twitter: @3Fig69</a></li>
+        <li><a href="https://github.com/Fig369">github: @Fig369</a></li>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <p>Want to subscribe to my newsletter?</p>
+      <input placeholder="enter an email address..." />
+      <button>Submit</button>
+    </div>
+    <div class="sticky-image-wrapper" style=>
+      <img src="/img/mountains.png" />
+    </div>
+  </body>
+</html>
