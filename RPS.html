@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Sissors</title>
+    <link rel="stylesheet" href="../css/RPS.css" />
+    <script
+      src="https://kit.fontawesome.com/332a215f17.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg">
+    <div class="main">
+      <div class="header">
+        <h1>Rock Paper Scissors Game</h1>
+      </div>
+      <div class="player-container" id="player">
+        <h2>
+          Player -- <span id="playerScore"></span>
+          <span class="choice" id="playerChoice"></span>
+        </h2>
+        <i
+          class="far fa-hand-rock"
+          title="Rock"
+          id="playerRock"
+          onclick="select('rock')"
+        ></i>
+        <i
+          class="far fa-hand-paper"
+          title="Paper"
+          id="playerPaper"
+          onclick="select('paper')"
+        ></i>
+        <i
+          class="far fa-hand-scissors"
+          title="Scissors"
+          id="playerScissors"
+          onclick="select('scissors')"
+        ></i>
+      </div>
+      <!---Comp Container-->
+      <div class="player-container" id="comp">
+        <h2>
+          Computer -- <span id="compScore"></span>
+          <span class="choice" id="compChoice"></span>
+        </h2>
+        <i class="far fa-hand-rock" title="Rock" id="compRock"></i>
+        <i class="far fa-hand-paper" title="Paper" id="compPaper"></i>
+        <i class="far fa-hand-scissors" title="Scissors" id="compScissors"></i>
+      </div>
+      <i
+        class="fas fa-sync-alt reset-icon"
+        title="Reset"
+        onclick="resetAll()"
+      ></i>
+      <div class="result-container">
+        <h3 class="result-text" id="resultText"></h3>
+      </div>
+    </div>
+    <script src="/Cbc14/Week4/Homework4/JS/RPS.js"></script>
+  </body>
+</html>
