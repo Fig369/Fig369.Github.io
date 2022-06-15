@@ -112,7 +112,7 @@ h2 {
 }
 
 /*Iphone*/
-@media screen abd(max-width:376px) {
+@media screen and (max-width:376px) {
   .main {
     height: 550px;
   }
@@ -130,17 +130,5 @@ h2 {
   }
   .result-container {
     margin: 0 20px;
-  }
-  .colorrock {
-    background-image: url(https://imgs.search.brave.com/15YzGOh2oGMTO6MKF2C4mdcGPfbY5h-7sgeRweMQJ94/rs:fit:573:612:1/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vdmVjdG9y/cy9vbmUtYmlnLXN0/b25lLXZlY3Rvci1p/ZDQ2OTIwMTA5Mj9r/PTYmbT00NjkyMDEw/OTImcz02MTJ4NjEy/Jnc9MCZoPTZBd3ZX/VGNibFprd1UwUmpT/UGZIWGI1LVBsMTlQ/LUk3aWVYckZRU0lQ/VTQ9);
-    background-size: auto;
-    }
-  .colorpaper {
-    background-image: url(https://imgs.search.brave.com/nCZMN2Dm-UgFfXdv9rWPIlWPPm5Qb4GixS8uulpOdpk/rs:fit:630:630:1/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vdGVlcHVibGlj/L2ltYWdlL3ByaXZh/dGUvcy0tNWNQUUgw/TkgtLS90X1Jlc2l6/ZWQlMjBBcnR3b3Jr/L2NfZml0LGdfbm9y/dGhfd2VzdCxoXzk1/NCx3Xzk1NC9jb19m/ZmZmZmYsZV9vdXRs/aW5lOjQ4L2NvX2Zm/ZmZmZixlX291dGxp/bmU6aW5uZXJfZmls/bDo0OC9jb19mZmZm/ZmYsZV9vdXRsaW5l/OjQ4L2NvX2ZmZmZm/ZixlX291dGxpbmU6/aW5uZXJfZmlsbDo0/OC9jb19iYmJiYmIs/ZV9vdXRsaW5lOjM6/MTAwMC9jX21wYWQs/Z19jZW50ZXIsaF8x/MjYwLHdfMTI2MC9i/X3JnYjplZWVlZWUv/Y19saW1pdCxmX2pw/ZyxoXzYzMCxxXzkw/LHdfNjMwL3YxNTAz/MjM4NzM2L3Byb2R1/Y3Rpb24vZGVzaWdu/cy8xODM3NjMwXzAu/anBn);
-    background-size: auto;
-  }
-  .colorscissor {
-    background-image: url(https://imgs.search.brave.com/OFHRtVhTD2N1El98jwm3WCsULs2mBq8YFj46CHOmgsk/rs:fit:600:500:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJhd2NlcHRpb24u/Y29tL2RyYXdpbmdz/LzU4Njg5Ni9haHZz/bWs2aDhLLnBuZw);
-    background-size: auto;
   }
 }
