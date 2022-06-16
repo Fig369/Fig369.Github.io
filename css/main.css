@@ -1831,10 +1831,10 @@ input::-moz-focus-inner {
     top: 0;
   }
 
-  .header-logo img {
+/*   .header-logo img {
     width: 128px;
     height: 30px;
-  }
+  } */
 
   .header-nav-wrap {
     display: none;
@@ -2084,8 +2084,8 @@ input::-moz-focus-inner {
   }
 
   .intro-grid {
-    top: 20%;
-    opacity: .1;
+/*     top: 20%; */
+    opacity: .33;
   }
 
   .intro-text h3 {
@@ -2107,9 +2107,9 @@ input::-moz-focus-inner {
     left: 30%;
   }
 
-  .intro-grid {
+/*   .intro-grid {
     left: 15%;
-  }
+  } */
 
 }
 
@@ -2126,9 +2126,9 @@ input::-moz-focus-inner {
     left: 20%;
   }
 
-  .intro-grid {
+/*   .intro-grid {
     left: 10%;
-  }
+  } */
 
   .intro-text {
     -webkit-transform: translate3d(0, -4.8rem, 0);
