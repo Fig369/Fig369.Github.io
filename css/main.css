@@ -83,7 +83,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #cf1767;
+  color: #6617cf;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1477,7 +1477,7 @@ input::-moz-focus-inner {
   display: block;
   width: 150px;
   height: 2px;
-  background-color: #cf1767;
+  background-color: #ffec03;
   position: absolute;
   top: 0;
   left: 0;
@@ -1687,7 +1687,7 @@ input::-moz-focus-inner {
 }
 
 .header-main-nav .current a {
-  color: #ffffff;
+  color: #ffec03;
 }
 
 .header-social {
@@ -1707,7 +1707,7 @@ input::-moz-focus-inner {
 }
 
 .header-social li a {
-  color: #ffffff;
+  color: #ffec03;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1924,7 +1924,7 @@ input::-moz-focus-inner {
 }
 
 .intro-pic {
-  background-color: #7207b94a;
+  background-color: #3e006800;
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url(../images/hero-pic.PNG);
@@ -1950,7 +1950,7 @@ input::-moz-focus-inner {
 /*   background-image: url(../images/pattern-dot-grid.svg); */
 .intro-grid {
   background-image: url(https://img.freepik.com/free-vector/3d-grid-wormhole-illusion-design-element_53876-101082.jpg);
-  background-size: 519px 565px;
+  background-size: 693px 693px;
   opacity: .15;
   position: absolute;
   top: 30%;
@@ -2512,7 +2512,7 @@ input::-moz-focus-inner {
   background-position: center center;
   background-size: cover;
   background-image: url(../images/services-bg.jpg);
-  color: rgb(232 197 241 / 102%);;
+  color: rgb(233 218 10);;
   position: relative;
 }
 
@@ -2579,7 +2579,7 @@ input::-moz-focus-inner {
   font-weight: 300;
   font-size: 8rem;
   line-height: 1;
-  color: #cf1767;
+  color: #6617cf;
 }
 
 /* ------------------------------------------------------------------- 
