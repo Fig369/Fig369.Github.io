@@ -132,3 +132,43 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .main {
+      width: 95%;
+      height: 580px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    .player-container {
+      margin-right: 20px;
+    }
+    .reset-icon {
+      margin-top: 25px;
+      margin-left: 25px;
+    }
+  }
+  
+  /*Iphone*/
+  @media screen and (max-width:376px) {
+    .main {
+      height: 550px;
+    }
+    h1 {
+      font-size: 22px;
+    }
+    .player-container {
+      margin: 43px 0px 25px 20px;
+    }
+    .far {
+      font-size: 43px;
+    }
+    .reset-icon {
+      margin-top: 15px;
+    }
+    .result-container {
+      margin: 0 20px;
+    }
+  }
+  
