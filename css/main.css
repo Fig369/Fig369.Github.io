@@ -3496,7 +3496,7 @@ footer a:visited {
 
 .ss-go-top a {
   display: block;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgb(221 183 0);
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -3517,7 +3517,7 @@ footer a:visited {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #cf1767;
+  background-color: rgb(221 183 0);
   color: #ffffff;
 }
 
