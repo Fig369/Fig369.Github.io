@@ -1952,7 +1952,8 @@ input::-moz-focus-inner {
 /*   background-image: url(../images/pattern-dot-grid.svg); */
 .intro-grid {
   background-image: url(https://img.freepik.com/free-vector/3d-grid-wormhole-illusion-design-element_53876-101082.jpg);
-  background-size: 693px 777px;
+  background-size: contain;
+  background-repeat: round;
   opacity: .15;
   position: absolute;
   top: 30%;
