@@ -185,9 +185,9 @@ a:focus {
 .slider_section {
   background-image: url(../images/hero.jpg);
   padding: 6% 0;
-  background-size: 13rem 13rem;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   .row {
     align-items: center;
   }
