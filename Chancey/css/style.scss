@@ -28,7 +28,7 @@ $primary2: #0dc3ff;
 body {
   @include main-font;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: rgb(173 33 33 / 83%);
 }
 
 .layout_padding {
@@ -185,9 +185,9 @@ a:focus {
 .slider_section {
   background-image: url(../images/hero.jpg);
   padding: 6% 0;
-  background-size: cover;
+  background-size: 13rem 13rem;
   background-repeat: no-repeat;
-
+  background-position: top;
   .row {
     align-items: center;
   }
