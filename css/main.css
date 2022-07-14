@@ -1932,7 +1932,7 @@ input::-moz-focus-inner {
   background-image: url(../images/hero-pic.PNG);
   background-size: cover;
   position: absolute;
-  top: 20%;
+  top: 0%;
   right: 0;
   bottom: 0;
   left: 50%;
@@ -1956,7 +1956,7 @@ input::-moz-focus-inner {
   background-repeat: round;
   opacity: 0.33;
   position: absolute;
-  top: 10%;
+  top: 3%;
   right: 0;
   bottom: 0;
   left: 0;
