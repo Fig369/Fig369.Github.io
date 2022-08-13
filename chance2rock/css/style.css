@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0cca;
-  background-color: #000000d3;
+  background-color: #3c3838b5;
 }
 
 .layout_padding {
@@ -29,11 +29,11 @@ body {
 }
 
 .custom_heading {
-  color: #030404;
+  color: #020202;
 }
 
 .custom_heading span {
-  color: #21d7ff;
+  color: #000000;
 }
 
 /*header section*/
@@ -572,3 +572,32 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+/* Style all font awesome icons */
+.fa {
+  padding: 9px 0px;
+  font-size: 30px;
+  width: 33px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Instagram */
+.fa-instagram {
+  background: #ff0033;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
