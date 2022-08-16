@@ -22,7 +22,7 @@ body{
     display: flex;
     background: white;
     flex-direction: column;
-    max-width: 200px;
+    min-width: 200px;
     max-width: 300px;
     text-align: center;
     min-height: 370px;
@@ -33,7 +33,7 @@ body{
 }
 
 img{
-    max-width: 200px;
+    min-width: 200px;
     max-width: 300px;
 }
 
