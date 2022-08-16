@@ -8,6 +8,7 @@
 
 body{
     background: rgb(107, 73, 73);
+    
 }
 
 .productHolder{
@@ -16,6 +17,7 @@ body{
     align-items: center;
     justify-content: space-around;
 }
+
 
 .card{
     cursor: pointer;
@@ -32,10 +34,15 @@ body{
 
 }
 
-img{
+.gImage{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+/* img{
     min-width: 200px;
     max-width: 300px;
-}
+} */
 
 .card:hover{
     transform: scale(1.1);
