@@ -637,8 +637,7 @@ a:focus {
 } */
 
 .embed-responsive .card-img-top {
-  object-fit: cover;
-  margin: 1.5rem;
+  object-fit: contain;
   border-radius: 1rem
 }
 
