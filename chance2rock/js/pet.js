@@ -18,7 +18,7 @@ function createCard([img,product,nameText,birthDate,weight,height,coatColor,nose
     products.innerHTML += code
 }
 
-let item1 =["https://drive.google.com/drive/folders/1eZsDGo39_QFpl4fWffa6c7W9bE0Z8giC6Pd7Rf_usqw7gaDsPuMiQAOlj6TgLLC1K11JQwRb",
+let item1 =["https://fig369.github.io/chance2rock/images/g-2.jpeg",
 "Incredibullz Radio AKA Cuba",
 "July 7th 2020",
 "105 lbs",
