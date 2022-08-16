@@ -670,3 +670,13 @@ a:focus {
 .noseColor{
   color: rgb(142, 15, 15);
 }
+
+.card-title{
+  color: rgb(8, 8, 8);
+  font-size: 9vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgs .card-img{
+  opacity: 0.33;
+}
