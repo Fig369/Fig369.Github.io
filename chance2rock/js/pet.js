@@ -27,7 +27,7 @@ let item1 =["https://fig369.github.io/chance2rock/images/g-2.jpeg",
 "Red",
 ];
 
-let item2 =["https://fig369.github.io/chance2rock/images/g-3.jpeg",
+let item2 =["https://fig369.github.io/chance2rock/images/g-4.jpeg",
 "Dog 2",
 "April 20th 2020",
 "105 lbs",
