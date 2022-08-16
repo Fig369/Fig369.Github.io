@@ -670,14 +670,3 @@ a:focus {
 .noseColor{
   color: rgb(142, 15, 15);
 }
-
-.opacity (
-  property: opacity,
-  values: (
-    0: 0,
-    25: .25,
-    50: .5,
-    75: .75,
-    100: 1,
-  )
-),
