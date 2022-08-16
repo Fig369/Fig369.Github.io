@@ -650,11 +650,9 @@ a:focus {
 
 .nameText{
   font-weight: 400;
-  opacity: 0.7;
 }
 
 .birthDate{
-
   color: #4287f5;
 }
 .weight{
@@ -672,3 +670,14 @@ a:focus {
 .noseColor{
   color: rgb(142, 15, 15);
 }
+
+.opacity (
+  property: opacity,
+  values: (
+    0: 0,
+    25: .25,
+    50: .5,
+    75: .75,
+    100: 1,
+  )
+),
