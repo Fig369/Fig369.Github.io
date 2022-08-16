@@ -1,16 +1,10 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 0.3px;
-}
-
-body{
-    background: rgb(107, 73, 73);
-    
-}
-
+} */
 .productHolder{
     display: flex;
     flex-wrap: wrap;
@@ -31,7 +25,6 @@ body{
     border-radius: 1rem;
     margin: 1.5rem;
     transition: 0.3s;
-
 }
 
 /* .gImage{
@@ -48,7 +41,7 @@ body{
     transform: scale(1.1);
 }
 
-.cardText *{
+.cardText {
     margin: 0.5rem;
 }
 
@@ -77,9 +70,9 @@ body{
     color: rgb(142, 15, 15);
 }
 
-span{
+/* span{
     color: black;
-}
+} */
 
 
 /*     .productHolder{
