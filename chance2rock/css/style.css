@@ -612,7 +612,7 @@ a:focus {
 }
 
 
-.card{
+.galleryCard{
   cursor: pointer;
   display: flex;
   background: white;
@@ -642,11 +642,11 @@ a:focus {
 
 }
 
-.card:hover{
+.galleryCard:hover{
   transform: scale(1.1);
 }
 
-.cardText {
+.galleryCardText {
   margin: 0.5rem;
 }
 
