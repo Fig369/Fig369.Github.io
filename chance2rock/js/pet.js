@@ -28,3 +28,7 @@ let item1 =["https://drive.google.com/drive/folders/1eZsDGo39_QFpl4fWffa6c7W9bE0
 ];
 
 createCard(item1)
+createCard(item1)
+createCard(item1)
+createCard(item1)
+createCard(item1)
