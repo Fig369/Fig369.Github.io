@@ -617,7 +617,6 @@ a:focus {
   display: flex;
   background: white;
   flex-direction: column;
-  min-width: 200px;
   max-width: 300px;
   text-align: center;
   min-height: 370px;
