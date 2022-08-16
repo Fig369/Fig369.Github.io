@@ -639,7 +639,7 @@ a:focus {
 .embed-responsive .card-img-top {
   object-fit: cover;
   margin: 1.5rem;
-
+  border-radius: 1rem
 }
 
 .galleryCard:hover{
