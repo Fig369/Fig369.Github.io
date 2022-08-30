@@ -495,14 +495,14 @@ a:focus {
 }
 
 .info_items {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .info_items .item {
@@ -551,6 +551,10 @@ a:focus {
 
 .info_items .item .img-box.box-3 {
   background-image: url(../images/envelope-white.png);
+}
+
+.info_items .item .img-box.box-4 {
+  background-image: url(../images/insta-white.png);
 }
 
 /* footer section*/
@@ -650,9 +654,11 @@ a:focus {
 
 .nameText{
   font-weight: 400;
+  opacity: 0.7;
 }
 
 .birthDate{
+
   color: #4287f5;
 }
 .weight{
@@ -669,14 +675,4 @@ a:focus {
 
 .noseColor{
   color: rgb(142, 15, 15);
-}
-
-.card-title{
-  color: rgb(8, 8, 8);
-  font-size: 9vw;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.imgs .card-img{
-  opacity: 0.33;
 }
