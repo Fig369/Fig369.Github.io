@@ -103,6 +103,11 @@
         flex-direction: column;
         height: fit-content
     }
+    .gallery-row-pet,
+    .gallery-row-pet.row-lg{
+        flex-direction: column!important;
+        height: fit-content
+    }
 }
 
 @media only screen and (orientation: landscape) and (max-height: 565px) {
