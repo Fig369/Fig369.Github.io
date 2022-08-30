@@ -9,7 +9,8 @@ body {
 }
 
 .layout_padding {
-  padding: 75px 0;
+  padding: 20px 13px 20px 13px;
+  margin: 20px 15px 20px 15px;
 }
 
 .layout_padding2 {
@@ -216,7 +217,6 @@ a:focus {
 .slider_detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 0.3rem 0.96rem 0.3rem 0.96rem;
-  font: #000000;
   font-size: 1.3rem;
   line-height: 1;
   background-color: #f2df8e;
@@ -360,7 +360,11 @@ a:focus {
 }
 
 .gallery-section {
-  background-color: #000000d3;
+  margin: 33px 66px 33px 66px;
+  background-color: #000000c9;
+  border: 3.3px #f98617;
+  border-radius: 0.369rem;
+  border-style: double outset solid double;
 }
 
 .gallery-section .container {
