@@ -640,11 +640,11 @@ a:focus {
 
 /* Cards*/
 .productHolder{
-  display: flex;
+  display: -webkit-inline-box;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  margin: 1.5rem;
+  margin: .5rem;
 }
 
 
