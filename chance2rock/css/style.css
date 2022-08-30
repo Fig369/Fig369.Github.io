@@ -160,6 +160,16 @@ a:focus {
   background-size: 55px;
 }
 
+.navbar-toggler {
+  padding: 0.3rem 0.96rem 0.3rem 0.96rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  background-color: #f2df8e;
+  border: 6px #f98617;
+  border-radius: .369rem;
+  border-style: double outset solid double;
+}
+
 /*end header section*/
 /* slider section */
 .slider_section {
