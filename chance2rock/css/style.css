@@ -215,11 +215,13 @@ a:focus {
 
 .slider_detail-box .btn-box .btn-1 {
   display: inline-block;
-  padding: 10px 45px;
-  background-color: #b70101;
-  border: 1px solid #023b48;
-  color: #ffffff;
-  margin-right: 10px;
+  padding: 0.3rem 0.96rem 0.3rem 0.96rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  background-color: #f2df8e;
+  border: 3px #f98617;
+  border-radius: .369rem;
+  border-style: double outset solid double;
 }
 
 .slider_detail-box .btn-box .btn-1:hover {
@@ -229,10 +231,13 @@ a:focus {
 
 .slider_detail-box .btn-box .btn-2 {
   display: inline-block;
-  padding: 10px 45px;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-  color: #023b48;
+  padding: 0.3rem 0.96rem 0.3rem 0.96rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  background-color: #f2df8e;
+  border: 3px #f98617;
+  border-radius: .369rem;
+  border-style: double outset solid double;
 }
 
 .slider_detail-box .btn-box .btn-2:hover {
@@ -284,10 +289,13 @@ a:focus {
 
 .about_section .detail-box a {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #cb0303;
-  border: 1px solid #023b48;
-  color: #ffffff;
+  padding: 0.3rem 0.96rem 0.3rem 0.96rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  background-color: #f2df8e;
+  border: 3px #f98617;
+  border-radius: .369rem;
+  border-style: double outset solid double;
 }
 
 .about_section .detail-box a:hover {
@@ -496,7 +504,7 @@ a:focus {
 .map_section .form_container button {
   display: inline-block;
   padding: 12px 20px;
-  background-color: #023b48;
+  background-color: #000000;
   border: 1px solid #023b48;
   color: #ffffff;
   border-radius: 30px;
@@ -506,7 +514,7 @@ a:focus {
 
 .map_section .form_container button:hover {
   background-color: transparent;
-  color: #023b48;
+  color: #000000;
 }
 
 .info_section {
