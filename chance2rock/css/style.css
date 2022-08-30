@@ -59,7 +59,7 @@ body {
 }
 
 .header_section {
-  background-color: #f6f8f7;
+  background-color: #000000;
   padding-top: 15px;
 }
 
@@ -73,13 +73,13 @@ body {
 }
 
 .header_section .quote_btn-container a {
-  color: #434242;
+  color: #f3dc81;
   text-transform: uppercase;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
-  color: #434242;
+  color: #f3dc81;
   text-align: center;
   text-transform: uppercase;
 }
