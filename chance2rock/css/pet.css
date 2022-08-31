@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    margin: 33px 33px 33px 33px;
+    margin: 33px 33px 32px 32px;
     background-position: center;
 }
 
@@ -65,10 +65,10 @@
 
 .petHeader{
     text-align: center;
-    font-size: 3.69rem;
+    font-size: 1.3rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .layout_padding {
         padding: 20px 13px 20px 13px!important;
         margin: 20px 15px 20px 15px!important;
@@ -91,11 +91,7 @@
     .gallery-row,
     .gallery-row.row-lg{
         flex-direction: column;
-        height: fit-content;
-        max-width: 330px;
-    }
-    .productHolder{
-        max-width: 18rem;
+        height: fit-content
     }
 }
 
