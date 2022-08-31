@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    margin: 33px 33px 32px 32px;
+    margin: 33px 33px 33px 33px;
     background-position: center;
 }
 
@@ -93,6 +93,9 @@
         flex-direction: column;
         height: fit-content;
         max-width: 330px;
+    }
+    .productHolder{
+        display: -webkit-box;
     }
 }
 

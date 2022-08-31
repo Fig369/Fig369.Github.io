@@ -651,7 +651,6 @@ a:focus {
 .galleryCard{
   cursor: pointer;
   background: white;
-
   text-align: center;
   border-radius: 1rem;
   margin: 1.5rem;
