@@ -105,7 +105,7 @@
     }
     .gallery-row-pet,
     .gallery-row-pet.row-lg{
-        flex-direction: column!important;
+        flex-direction: row!important;
         height: fit-content
     }
     .productHolder{
