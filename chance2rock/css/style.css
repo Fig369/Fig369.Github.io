@@ -3,9 +3,8 @@ body {
   color: #000000;
   background-color: #3c3838b5;
   font-size:1.13rem;
-  background: -webkit-linear-gradient(#40260c, #000000)!important;
-/*   -webkit-background-clip: text; */
   -webkit-text-fill-color: #c7983f;
+  background: -webkit-linear-gradient(#40260c, #000000)!important;
 }
 
 .layout_padding {
