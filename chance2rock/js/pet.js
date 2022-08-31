@@ -2,6 +2,7 @@ const products = document.querySelector(".productHolder");
 
 function createCard([img,product,nameText,birthDate,weight,height,coatColor,noseColor]){
     let code = `
+    <div class="gallery-row">
     <div class="galleryCard">
     <img src="${img}" alt="${product}" class="card-img-top embed-responsive-21by9">
         <div class="cardText">
@@ -14,11 +15,13 @@ function createCard([img,product,nameText,birthDate,weight,height,coatColor,nose
             <p class="noseColor"><span>Nose Color:</span>${noseColor}</p>
         </div>
     </div>
+    </div>
     `;
     products.innerHTML += code;
 }
 
 let item1 =["https://fig369.github.io/chance2rock/images/g-2.jpeg",
+"Incredibullz Radio AKA Cuba",
 "Incredibullz Radio AKA Cuba",
 "July 7th 2020",
 "105 lbs",
@@ -28,7 +31,8 @@ let item1 =["https://fig369.github.io/chance2rock/images/g-2.jpeg",
 ];
 
 let item2 =["https://fig369.github.io/chance2rock/images/g-4.jpeg",
-"Dog 2",
+"El senior Puerto Rico",
+"El senior Puerto Rico",
 "April 20th 2020",
 "105 lbs",
 "24 Inches",
@@ -36,7 +40,18 @@ let item2 =["https://fig369.github.io/chance2rock/images/g-4.jpeg",
 "Red",
 ];
 
-let item3 =["https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
+let item3 =["https://fig369.github.io/chance2rock/images/g-3.jpeg",
+"Zara",
+"Zara",
+"April 20th 2020",
+"105 lbs",
+"24 Inches",
+"Ghost Tri",
+"Red",
+];
+
+let item4 =["https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
+"TBD",
 "TBD",
 "Fall 2022",
 "TBD",
@@ -48,5 +63,5 @@ let item3 =["https://images.unsplash.com/photo-1513201099705-a9746e1e201f?ixlib=
 createCard(item1)
 createCard(item2)
 createCard(item3)
-createCard(item3)
+createCard(item4)
 createCard(item3)
