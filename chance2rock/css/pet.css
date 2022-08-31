@@ -128,9 +128,6 @@
         height: fit-content
     }
 
-    .productHolder{
-        flex-direction: column!important;
-    }
     .petheader{
         text-align: center;
         padding: 33px 33px 33px 33px;
