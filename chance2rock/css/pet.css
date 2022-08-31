@@ -14,7 +14,7 @@
     font-size: 1.9rem;
 }
 
-.productHolder{
+/* .productHolder{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,10 +27,23 @@
     border: 6px #f98617;
     border-radius: .369rem;
     border-style: double outset solid double;
-  
-}
+} */
 
-.galleryCard {
+
+
+.productHolder{
+    display: -webkit-inline-box;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: .5rem;
+    border: 6px #f98617;
+    border-radius: .369rem;
+    border-style: double outset solid double;
+  }
+  
+  
+  .galleryCard{
     cursor: pointer;
     display: flex;
     background: white;
@@ -41,7 +54,55 @@
     border-radius: 1rem;
     margin: 1.5rem;
     transition: 0.3s;
-}
+  }
+  
+  /* .gImage{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  } */
+  /* img{
+    min-width: 200px;
+    max-width: 300px;
+  } */
+  
+  .embed-responsive .card-img-top {
+    object-fit: contain;
+    border-radius: 1rem
+  }
+  
+  .galleryCard:hover{
+    transform: scale(1.1);
+  }
+  
+  .galleryCardText {
+    margin: 0.5rem;
+  }
+  
+  .nameText{
+    font-weight: 400;
+    opacity: 0.7;
+  }
+  
+  .birthDate{
+  
+    color: #4287f5;
+  }
+  .weight{
+    color: black;
+  }
+  
+  .height{
+   
+    font-size: large;
+  }
+  .coatColor{
+    color: #C8A2C8;
+  }
+  
+  .noseColor{
+    color: rgb(142, 15, 15);
+  }
 
 .gallery-row.row-lg{
     height: 33vh
@@ -123,7 +184,7 @@
     .gallery-row.row-lg{
         flex-direction: column;
         height: fit-content
-    }
+    } 
 }
 
 @media only screen and (orientation: landscape) and (max-height: 565px) {

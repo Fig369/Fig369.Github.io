@@ -638,7 +638,7 @@ a:focus {
 }
 
 /* Cards*/
-.productHolder{
+/* .productHolder{
   display: -webkit-inline-box;
   flex-wrap: wrap;
   align-items: center;
@@ -658,7 +658,7 @@ a:focus {
   border-radius: 1rem;
   margin: 1.5rem;
   transition: 0.3s;
-}
+} */
 
 /* .gImage{
   width: 100%;
@@ -669,7 +669,7 @@ a:focus {
   min-width: 200px;
   max-width: 300px;
 } */
-
+/* 
 .embed-responsive .card-img-top {
   object-fit: contain;
   border-radius: 1rem
@@ -706,4 +706,4 @@ a:focus {
 
 .noseColor{
   color: rgb(142, 15, 15);
-}
+} */
