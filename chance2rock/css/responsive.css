@@ -96,6 +96,15 @@
     flex-direction: column;
   }
 
+  .productHolder{
+    display: -webkit-inline-box;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: .5rem;
+    max-width: 301px;
+  }
+
   .gallery-section .img_box {
     width: 100% !important;
   }
