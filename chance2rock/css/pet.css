@@ -8,22 +8,42 @@
     padding: 13px 3px 13px 3px;
 }
 
+.petHeader{
+    text-align: center;
+    padding: 33px 33px 33px 33px;
+    font-size: 1.9rem;
+}
+
 .productHolder{
-    width: 100%;
+    display: -webkit-inline-box;
+    padding: 33px 13px 33px 13px;;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 13px 3px 13px 3px;
-    padding: 13px 3px 13px 3px;
-    padding: 0.3rem 0.96rem 0.3rem 0.96rem;
-    font-size: 1.3rem;
-    line-height: 1;
-    background-color: #f2df8e;
-    border: 3px #f98617;
+    background-color: #030301;
+    border: 6px #f98617;
     border-radius: .369rem;
     border-style: double outset solid double;
   
+}
+
+.galleryCard {
+    cursor: pointer;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    max-width: 300px;
+    text-align: center;
+    min-height: 370px;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    transition: 0.3s;
 }
 
 .gallery-row.row-lg{
@@ -81,10 +101,6 @@
     background-position: center;
 }
 
-.petheader{
-    text-align: center;
-    padding: 33px 33px 33px 33px;
-}
 
 @media only screen and (max-width: 768px) {
     .layout_padding {
@@ -114,6 +130,11 @@
 
     .productHolder{
         flex-direction: column!important;
+    }
+    .petheader{
+        text-align: center;
+        padding: 33px 33px 33px 33px;
+        font-size: xx-large;
     }
 }
 
