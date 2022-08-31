@@ -2,6 +2,7 @@ const products = document.querySelector(".productHolder");
 
 function createCard([img,product,nameText,birthDate,weight,height,coatColor,noseColor]){
     let code = `
+    <div class="gallery-row">
     <div class="galleryCard">
     <img src="${img}" alt="${product}" class="card-img-top embed-responsive-21by9">
         <div class="cardText">
@@ -13,6 +14,7 @@ function createCard([img,product,nameText,birthDate,weight,height,coatColor,nose
             <p class="coatColor"><span>Coat Color: </span>${coatColor}</p>
             <p class="noseColor"><span>Nose Color: </span>${noseColor}</p>
         </div>
+    </div>
     </div>
     `;
     products.innerHTML += code;
