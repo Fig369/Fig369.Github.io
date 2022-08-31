@@ -146,5 +146,8 @@
   .container {
     max-width: 480px;
   }
+  .productHolder{
+    flex-wrap: wrap!important;
+  }
   
 }
