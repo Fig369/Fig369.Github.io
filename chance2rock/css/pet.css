@@ -95,7 +95,7 @@
         max-width: 330px;
     }
     .productHolder{
-        display: -webkit-box;
+        max-width: 18rem;
     }
 }
 
