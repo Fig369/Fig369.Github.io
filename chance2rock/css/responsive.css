@@ -136,12 +136,12 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .container {
-    max-width: 17rem;
+    max-width: 13rem;
   }
   .productHolder{
-    display: flex;
+    display: flex!important;
     }
   
 }
