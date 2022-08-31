@@ -15,18 +15,15 @@
 }
 
 .productHolder{
-    display: -webkit-inline-box;
-    padding: 33px 13px 33px 13px;;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0.5rem;
-    width: auto;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #030301;
+    padding: 133px 33px 133px 33px;
+    justify-content: space-around;
+    margin: 1.5rem;
+    width: auto;
+    height: auto;
+    background-color: #000000;
     border: 6px #f98617;
     border-radius: .369rem;
     border-style: double outset solid double;
