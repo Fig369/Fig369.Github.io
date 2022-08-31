@@ -644,9 +644,6 @@ a:focus {
   align-items: center;
   justify-content: space-around;
   margin: .5rem;
-  border: 3px #f98617;
-  border-radius: .369rem;
-  border-style: double outset solid double;
 }
 
 
