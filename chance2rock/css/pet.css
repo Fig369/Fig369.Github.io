@@ -24,14 +24,18 @@
 
 
 .productHolder{
+    width: auto;
+    height: auto;
     display: -webkit-inline-box;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: .5rem;
     border: 6px #f98617;
     border-radius: .369rem;
     border-style: double outset solid double;
+    flex-direction: row;
+    margin: 13px 3px 13px 3px;
+    padding: 13px 3px 13px 3px;
   }
   
   .gallery-row{
