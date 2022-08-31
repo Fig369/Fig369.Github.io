@@ -73,10 +73,7 @@
     background-position: center;
 }
 
-.petheader{
-    text-align: center;
-    padding: 33px 33px 33px 33px;
-}
+
 
 @media only screen and (max-width: 768px) {
     .layout_padding {
@@ -88,7 +85,7 @@
     .gallery-img.box-lg,
     .gallery-img.box-med,
     .gallery-img.box-sm{
-        width: 100%;
+        width:300px;
         height: 33vh;
         background-position: center
     }
@@ -103,20 +100,12 @@
         flex-direction: column;
         height: fit-content
     }
-    .gallery-row-pet,
-    .gallery-row-pet.row-lg{
-        flex-direction: row!important;
-        height: fit-content
-    }
-/*     .productHolder{
-        flex-direction: column!important;
-    } */
 }
 
 @media only screen and (orientation: landscape) and (max-height: 565px) {
     .gallery-row,
     .gallery-row.row-lg{
-        flex-direction: row;
+        flex-direction: column;
         height: fit-content;
         margin:auto;
     }
