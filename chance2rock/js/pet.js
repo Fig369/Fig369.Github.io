@@ -2,19 +2,17 @@ const products = document.querySelector(".productHolder");
 
 function createCard([img,product,nameText,birthDate,weight,height,coatColor,noseColor]){
     let code = `
-    <div class="gallery-row">
     <div class="galleryCard">
     <img src="${img}" alt="${product}" class="card-img-top embed-responsive-21by9">
         <div class="cardText">
             <p class="nameText">${nameText}</p>
-            <h2 class="birthDate">${birthDate}</h2>
-            <h2 class="weight">Weight:${weight}</h2>
+            <h2 class="birthDate">Birthdate: ${birthDate}</h2>
+            <h2 class="weight">Weight: ${weight}</h2>
             <h5>⭐⭐⭐⭐⭐</h5>
-            <p class="height">Height:${height}</p>
-            <p class="coatColor"><span>Coat Color:</span>${coatColor}</p>
-            <p class="noseColor"><span>Nose Color:</span>${noseColor}</p>
+            <p class="height">Height: ${height}</p>
+            <p class="coatColor"><span>Coat Color: </span>${coatColor}</p>
+            <p class="noseColor"><span>Nose Color: </span>${noseColor}</p>
         </div>
-    </div>
     </div>
     `;
     products.innerHTML += code;
@@ -64,4 +62,4 @@ createCard(item1)
 createCard(item2)
 createCard(item3)
 createCard(item4)
-createCard(item3)
+createCard(item4)

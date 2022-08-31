@@ -3,6 +3,7 @@ body {
   color: #000000;
   background-color: #3c3838b5;
   font-size:1.13rem;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: #c7983f;
   background: -webkit-linear-gradient(#40260c, #000000)!important;
 }
@@ -638,34 +639,37 @@ a:focus {
 }
 
 /* Cards*/
- .productHolder{
-  display: -webkit-box;
+.productHolder{
+  display: -webkit-inline-box;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin: .5rem;
-  flex-direction: column;
 }
 
 
 .galleryCard{
   cursor: pointer;
+  display: flex;
   background: white;
+  flex-direction: column;
+  max-width: 300px;
   text-align: center;
+  min-height: 370px;
   border-radius: 1rem;
   margin: 1.5rem;
   transition: 0.3s;
-} 
+}
 
- .gImage{
+/* .gImage{
   width: 100%;
   height: 15vw;
   object-fit: cover;
-} 
-img{
+} */
+/* img{
   min-width: 200px;
   max-width: 300px;
-} 
+} */
 
 .embed-responsive .card-img-top {
   object-fit: contain;
@@ -703,4 +707,4 @@ img{
 
 .noseColor{
   color: rgb(142, 15, 15);
-} 
+}
