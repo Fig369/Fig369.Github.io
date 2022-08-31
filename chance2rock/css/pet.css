@@ -8,7 +8,7 @@
     padding: 13px 3px 13px 3px;
 }
 
-.gallery-row-pet{
+.productHolder{
     width: 100%;
     height: auto;
     display: flex;
@@ -103,11 +103,7 @@
         flex-direction: column;
         height: fit-content
     }
-    .gallery-row-pet,
-    .gallery-row-pet.row-lg{
-        flex-direction: row!important;
-        height: fit-content
-    }
+
     .productHolder{
         flex-direction: column!important;
     }
