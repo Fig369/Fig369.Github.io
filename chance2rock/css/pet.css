@@ -63,6 +63,11 @@
     background-position: center;
 }
 
+.petHeader{
+    text-align: center;
+    font-size: 3.69rem;
+}
+
 @media only screen and (max-width: 768px) {
     .layout_padding {
         padding: 20px 13px 20px 13px!important;
