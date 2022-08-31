@@ -1,12 +1,4 @@
-.gallery-row{
-    width: 100%;
-    height: 65vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 13px 3px 13px 3px;
-    padding: 13px 3px 13px 3px;
-}
+
 
 .petHeader{
     text-align: center;
@@ -42,6 +34,15 @@
     border-style: double outset solid double;
   }
   
+  .gallery-row{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 13px 3px 13px 3px;
+    padding: 13px 3px 13px 3px;
+}
   
   .galleryCard{
     cursor: pointer;
