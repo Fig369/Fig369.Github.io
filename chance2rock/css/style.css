@@ -644,17 +644,15 @@ a:focus {
   align-items: center;
   justify-content: space-around;
   margin: .5rem;
+  flex-direction: column;
 }
 
 
 .galleryCard{
   cursor: pointer;
-  display: flex;
   background: white;
-  flex-direction: column;
-  max-width: 300px;
+
   text-align: center;
-  min-height: 370px;
   border-radius: 1rem;
   margin: 1.5rem;
   transition: 0.3s;
