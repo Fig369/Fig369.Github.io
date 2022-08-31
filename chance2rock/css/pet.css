@@ -68,7 +68,7 @@
     font-size: 3.69rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .layout_padding {
         padding: 20px 13px 20px 13px!important;
         margin: 20px 15px 20px 15px!important;
@@ -91,7 +91,8 @@
     .gallery-row,
     .gallery-row.row-lg{
         flex-direction: column;
-        height: fit-content
+        height: fit-content;
+        max-width: 330px;
     }
 }
 
