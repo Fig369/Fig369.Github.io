@@ -17,7 +17,7 @@ function createCard([img,product,nameText,birthDate,weight,height,coatColor,nose
         </div>
     </div>
     </div>
-    </section>
+    <selection>
     `;
     products.innerHTML += code;
 }

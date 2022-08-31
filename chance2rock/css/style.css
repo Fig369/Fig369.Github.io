@@ -1,11 +1,10 @@
 body {
   font-family: "Impact", sans-serif;
   color: #000000;
-  background-color: #3c3838b5;
   font-size:1.13rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: #c7983f;
-  background: -webkit-linear-gradient(#40260c, #000000)!important;
+  background: -webkit-linear-gradient(#000000, #210f01, #000000)!important;
 }
 
 .layout_padding {
@@ -640,11 +639,11 @@ a:focus {
 
 /* Cards*/
 .productHolder{
-  display: flex;
+  display: -webkit-box;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  margin: .5rem;
+  margin: 7.5rem;
 }
 
 
