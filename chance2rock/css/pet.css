@@ -124,10 +124,6 @@
         flex-direction: column;
         height: fit-content
     }
-    .productHolder{
-        width: 300px;
-        flex-direction: column;
-    }
 }
 
 @media only screen and (orientation: landscape) and (max-height: 565px) {
