@@ -139,4 +139,12 @@
   .container {
     max-width: 1170px;
   }
+  
+}
+
+@media (max-width: 300px) {
+  .container {
+    max-width: 480px;
+  }
+  
 }
