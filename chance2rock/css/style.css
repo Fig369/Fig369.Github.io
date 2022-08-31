@@ -663,8 +663,8 @@ a:focus {
   object-fit: cover;
 } 
 img{
-  min-width: 200px;
-  max-width: 300px;
+  min-width: 300px;
+  max-width: 500px;
 } 
 
 .embed-responsive .card-img-top {
