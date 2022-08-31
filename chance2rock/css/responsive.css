@@ -121,6 +121,7 @@
 }
 
 @media (max-width: 420px) {
+
 }
 
 @media (max-width: 360px) {
@@ -135,19 +136,13 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 200px) {
   .container {
-    max-width: 1170px;
+    max-width: 400px;
   }
+  .productHolder{
+    display: flex;
+    }
   
 }
 
-@media (max-width: 300px) {
-  .container {
-    max-width: 480px;
-  }
-  .productHolder{
-    flex-wrap: wrap!important;
-  }
-  
-}
