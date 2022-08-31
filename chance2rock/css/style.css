@@ -638,12 +638,15 @@ a:focus {
 }
 
 /* Cards*/
-/* .productHolder{
+ .productHolder{
   display: -webkit-inline-box;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin: .5rem;
+  border: 3px #f98617;
+  border-radius: .369rem;
+  border-style: double outset solid double;
 }
 
 
@@ -658,18 +661,18 @@ a:focus {
   border-radius: 1rem;
   margin: 1.5rem;
   transition: 0.3s;
-} */
+} 
 
-/* .gImage{
+ .gImage{
   width: 100%;
   height: 15vw;
   object-fit: cover;
-} */
-/* img{
+} 
+img{
   min-width: 200px;
   max-width: 300px;
-} */
-/* 
+} 
+
 .embed-responsive .card-img-top {
   object-fit: contain;
   border-radius: 1rem
@@ -706,4 +709,4 @@ a:focus {
 
 .noseColor{
   color: rgb(142, 15, 15);
-} */
+} 
