@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8931d;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .btn {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #5357ae;
+    color: white;
+  }
+  
+  .btn-lg {
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 1.2rem;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #f8931d;
+    color: #1b293c;
+    z-index: 1;
+  }
+  
+  nav > div {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav > div > h1 {
+    cursor: pointer;
+    color: gold;
+  }
+  
+  nav > div > h1:hover {
+    color: #1a6675;
+  }
+  
+  nav > div > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav > div > ul > li {
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    cursor: pointer;
+  }
+  
+  nav > div > ul > li:last-child {
+    padding-right: 0px;
+  }
+  
+  nav > div > ul > li:hover {
+    color: gold;
+  }
+  
+  #showcase {
+    height: 90vh;
+    background-image: url(./img/record.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    padding-top: 2vh;
+  }
+
+
+  
+  
+  #showcase > div {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #showcase > div > h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #6600d2 !important;
+  }
+  
+  #showcase > div > p {
+    font-size: 1.25rem;
+    padding: 0 10rem 0 10rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: gold !important;
+  }
+  
+  #showcase::before {
+    opacity: 0.5;
+  }
+
+  #about {
+    height: 20vh;
+    background-color: #e7ab06;
+    color: white;
+    display: flex;
+  }
+  
+  #about > div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about .card {
+    padding: 2rem;
+    margin: 0 1rem 0 1rem;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 5px;
+  }
+  
+  #about div i {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #about .card div .lead {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  #about .card div p {
+    text-align: justify;
+  }
+  
+  #cards {
+    height: 100vh;
+    background-color: #e7ab06;
+    color: white;
+    display: flex;
+  }
+  
+  #cards > div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #cards .card {
+    padding: 2rem;
+    margin: 0 1rem 0 1rem;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 5px;
+  }
+  
+  #cards div i {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #cards .card div .lead {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  #cards .card div p {
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: #e7ab06;
+    color: white;
+  }
+  
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .container h3 {
+    margin: 2rem 0 2rem 0;
+  }
+  
+  footer .container p {
+    margin-bottom: 1rem;
+  }
+  
+  footer .container a {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  @media screen and (max-width: 500px) {
+    :root {
+      font-size: 10px;
+    }
+  
+    .container {
+      max-width: 350px;
+    }
+  
+    #showcase .container p {
+      padding: 0 3rem 0 3rem;
+    }
+  
+    #cards .container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+  
+    #cards .card {
+      height: 30%;
+    }
+  }
+  
+  @media screen and (max-height: 500px) {
+    #cards {
+      height: 300%vh;
+    }
+    #cards .container {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      #cards .card {
+        height: 30%;
+      }
+  
+  }
+  
