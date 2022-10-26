@@ -7,7 +7,7 @@
   
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f8931d;
+    background-color: #1b293c;
   }
   
   .container {
@@ -56,7 +56,7 @@
   
   nav > div > h1 {
     cursor: pointer;
-    color: gold;
+    color: #f8931d;
   }
   
   nav > div > h1:hover {
@@ -80,18 +80,17 @@
   }
   
   nav > div > ul > li:hover {
-    color: gold;
+    color: #f8931d;
   }
   
   #showcase {
     height: 100vh;
-    background-image: url(./img/record.jpeg);
+    background-image: url(./img/logo-black.png);
     background-color: #1b293c4c;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    background-size: cover;
-    padding-top: 2vh;
+    background-size: contain;
   }
 
 
@@ -125,7 +124,7 @@
 
   #about {
     padding: 40px;
-    background-color: #e7ab06;
+    background-color: #f8931d;
     color: white;
     display: flex;
     font-size: larger;
@@ -232,6 +231,11 @@
     color: white;
     margin-bottom: 1rem;
   }
+
+  #videoBG {
+    width: auto;
+    height: 100vh;
+}
   
   @media screen and (max-width: 500px) {
     :root {
@@ -259,10 +263,6 @@
     #videoBG {
       display: none;
   }
-  body {
-      background: url('./img/logo.png');
-      background-size: cover;
-  }
   }
   
   @media screen and (max-height: 500px) {
@@ -280,10 +280,7 @@
   }
 
 
-#videoBG {
-    position:fixed;
-    z-index: -1;
-}
+
 @media (min-aspect-ratio: 16/9) {
     #videoBG {
         width:100%;
@@ -295,9 +292,6 @@
         width:auto;
         height: 100%;
     }
-}
-@media (max-width: 767px) {
-
 }
 /*   @media (max-width: 480px)
   .content-main video {
