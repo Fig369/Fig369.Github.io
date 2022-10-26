@@ -255,6 +255,14 @@
     #cards .card {
       height: 30%;
     }
+
+    #videoBG {
+      display: none;
+  }
+  body {
+      background: url('./img/logo.png');
+      background-size: cover;
+  }
   }
   
   @media screen and (max-height: 500px) {
@@ -271,30 +279,26 @@
   
   }
 
-  video {  
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
 
-  .video-container {
-    position: relative;
-    padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
-    height: 0;
-    width: 100%;
-  }
-  
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+
+}
 /*   @media (max-width: 480px)
   .content-main video {
       object-fit: cover;
