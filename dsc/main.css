@@ -84,13 +84,13 @@
   }
   
   #showcase {
-    height: 90vh;
+    height: 100vh;
     background-image: url(./img/record.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     background-size: cover;
-    padding-top: 2vh;
+    padding-top: 3vh;
   }
 
 
@@ -123,10 +123,11 @@
   }
 
   #about {
-    height: 20vh;
+    padding: 40px;
     background-color: #e7ab06;
     color: white;
     display: flex;
+    font-size: larger;
   }
   
   #about > div.container {
