@@ -85,12 +85,12 @@
   
   #showcase {
     height: 100vh;
-    background-image: url(./img/logo-black.png);
+    background-image: url(./img/logo.png);
     background-color: #1b293c4c;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    background-size: contain;
+    background-size: 350px;
   }
 
 
